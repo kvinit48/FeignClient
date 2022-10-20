@@ -20,4 +20,9 @@ public class Address {
 		this.landMark = landMark;
 	}
 
+	@Override
+	public String toString() {
+		return "Address [firstline=" + firstline + ", landMark=" + landMark + "]";
+	}
+
 }
